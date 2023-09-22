@@ -41,7 +41,7 @@ type ChildrenType = { children?: ReactElement | ReactElement[] }
 
 export const ProductsProvider = ({ children }: ChildrenType): ReactElement => {
   // eslint-disable-next-line @typescript-eslint/no-unused-vars
-  const [products, setProducts] = useState<ProductType[]>(initState)
+  const [products, ] = useState<ProductType[]>(initState)
 
   // useEffect(() => {
   //   const fetchProducts = async (): Promise<ProductType[]> => {
