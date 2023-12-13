@@ -1,27 +1,23 @@
-# React + TypeScript + Vite
+# 🛒 Simple shop
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+[Demo Page](https://wiktorw0.github.io/simple-shop-ts/)
 
-Currently, two official plugins are available:
+***Simple shop is the last project shown in [TypeScript Full Course for Beginners | Complete All-in-One Tutorial | 8 Hours](https://www.youtube.com/watch?v=gieEQFIfgYc) made by [Dave Gray](https://github.com/gitdagray).***
+</br>
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+***The purpose of this project was to further develop acquired skills in TypeScript basics used along with React framework. Project build with the use of previously prepared photo assets. One of the newer things to me was how to build and use singletons even though there were not build in classic way.***
+***Another important thing I learned was how to use useReducer hook and more in depth TypeScript functionalities.***
+</br>
 
-## Expanding the ESLint configuration
+## ⚒️ Built with:
+- React
+- Typescript
+- Vite
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
-
-- Configure the top-level `parserOptions` property like this:
-
-```js
-   parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-   },
-```
-
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+## 📷 Screenshots:
+<p align="center">
+<img src="https://i.imgur.com/ciFpetn.png" height="150%" width="150%" alt="task-list"/>
+<br />
+  
+<img src="https://i.imgur.com/9xOq5s6.png" height="150%" width="150%" alt="task-list"/>
+<br />
